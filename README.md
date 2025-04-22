@@ -25,6 +25,13 @@ This is a full-stack web application that converts PDFs into interactive educati
 - **Authentication**: JWT + bcrypt
 - **PDF Upload & Parsing**: Multer + pdf-parse
 
+##  AI Tools Used
+
+- ChatGPT  
+- GitHub Copilot  
+- Google Generative AI  
+- Claude.ai
+  
 ##  Tech Stack
 
 ### Frontend
@@ -47,21 +54,21 @@ This is a full-stack web application that converts PDFs into interactive educati
 ###  Frontend (React)
 
 ## Navigate to the frontend directory:
-   cd frontend
-   npm install
-   npm run dev
+   -cd frontend
+   -npm install
+   -npm run dev
    
 ##  Backend (Express.js)
 
 ## Navigate to the backend directory:
-  cd backend
-  npm install
-  nodemon index.js
+  -cd backend
+  -npm install
+  -nodemon index.js
   
 ## AI Mode (Python Flask Service)
-    python -m venv venv
-    venv\Scripts\activate (On Windows)
-    python aimode.py
+   - python -m venv venv
+   -venv\Scripts\activate (On Windows)
+   -python aimode.py
 
 
 
