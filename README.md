@@ -41,3 +41,29 @@ This is a full-stack web application that converts PDFs into interactive educati
 ![Homepage]![alt text](image.png)
 ![Quiz UI]![alt text](image-1.png)
 ![Dashboard]![alt text](image-2.png)
+
+##  How to Run the Project
+
+###  Frontend (React)
+
+## Navigate to the frontend directory:
+   cd frontend
+   npm install
+   npm run dev
+   
+##  Backend (Express.js)
+
+## Navigate to the backend directory:
+  cd backend
+  npm install
+  nodemon index.js
+  
+## AI Mode (Python Flask Service)
+    python -m venv venv
+    venv\Scripts\activate (On Windows)
+    python aimode.py
+
+
+
+  
+
